@@ -20,4 +20,4 @@ eazybankcommon:
     targetPort: 8080
   containerPort: 8080
   image:
-    tag: v0.0.1
+    tag: latest
