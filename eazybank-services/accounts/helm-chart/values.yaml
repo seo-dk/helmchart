@@ -1,15 +1,15 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-deploymentName: team8-lsc-accounts-deployment
-containerName: team8-lsc-accounts-container
-serviceName: team8-lsc-accounts-service
-appLabel: team8-lsc-accounts-app
+deploymentName: team8-accounts
+containerName: team8-accounts
+serviceName: team8-accounts
+appLabel: team8-accounts
 
 replicaCount: 1
 
 image:
-  repository: group1-team3-lsc-accounts
+  repository: team8-accounts
 
 service:
   nodePort: 30811

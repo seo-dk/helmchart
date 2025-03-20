@@ -1,15 +1,15 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-deploymentName: team8-lsc-loans-deployment
-containerName: team8-lsc-loans-container
-serviceName: team8-lsc-loans-service
-appLabel: team8-lsc-loans-app
+deploymentName: team8-loans
+containerName: team8-loans
+serviceName: team8-loans
+appLabel: team8-loans
 
 replicaCount: 1
 
 image:
-  repository: group1-team8-lsc-loans
+  repository: team8-loans
 
 
 service:

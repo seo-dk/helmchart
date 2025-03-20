@@ -1,15 +1,15 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-deploymentName: team8-lsc-cards-deployment
-containerName: team8-lsc-cards-container
-serviceName: team8-lsc-cards-service
-appLabel: team8-lsc-cards-app
+deploymentName: team8-cards
+containerName: team8-cards
+serviceName: team8-cards
+appLabel: team8-cards
 
 replicaCount: 1
 
 image:
-  repository: group1-team8-lsc-cards
+  repository: team8-cards
 
 service:
   nodePort: 30812
