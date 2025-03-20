@@ -10,7 +10,7 @@ pipeline {
 
 
         NAMESPACE = 'group1-team8'
-        HELM_RELEASE_NAME="team8-lsc-helmchart" //고유 ID (겹치지 않게 생성해야됨)
+        HELM_RELEASE_NAME="team8-helmchart" //고유 ID (겹치지 않게 생성해야됨)
         
     }
     stages {
