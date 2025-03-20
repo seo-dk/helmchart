@@ -1,10 +1,12 @@
 service:
   type: NodePort
   port: 80
-  targetPort: 9206
-containerPort: 9206
+  targetPort: 8080
+containerPort: 8080
 image:
   policy: Always
   tag: latest
 app:
-  message: "Helloworld TEAM3 LSC"
+  server:
+    port: 8080
+  message: "Helloworld TEAM8 lsc"
