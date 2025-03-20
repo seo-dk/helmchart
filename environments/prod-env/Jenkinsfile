@@ -53,7 +53,8 @@ pipeline {
                         --set cards.enabled=false \
                         --set loans.enabled=false \
                         --reset-values \
-                        --wait --timeout 10m0s" 
+                        --wait --timeout 10m0s \
+                        --force"
 
                         sh "kubectl get pods --namespace ${NAMESPACE}"
                 }
