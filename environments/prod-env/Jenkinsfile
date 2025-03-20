@@ -9,15 +9,15 @@ pipeline {
         HELM_CHART_PATH="environments/prod-env"
 
 
-        NAMESPACE = 'group1-team3'
-        HELM_RELEASE_NAME="team3-lsc-helmchart" //고유 ID (겹치지 않게 생성해야됨)
+        NAMESPACE = 'group1-team8'
+        HELM_RELEASE_NAME="team8-lsc-helmchart" //고유 ID (겹치지 않게 생성해야됨)
         
     }
     stages {
         stage('Checkout') {
             steps {
                 // Git 저장소에서 소스 코드 체크아웃 (branch 지정 : 본인 repository의 branch 이름으로 설정)
-                git branch: 'main', url: 'https://github.com/chayeonhee/team3_helmchart.git'
+                git branch: 'main', url: 'https://github.com/seo-dk/helmchart.git'
             }
         }
         
